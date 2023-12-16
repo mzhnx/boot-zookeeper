@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+#dubbo
+dubbo:
+  #设置服务器应用名称
+  application:
+    name: dubbo-web
+  #指定注册中心
+  registry:
+    address: zookeeper://127.0.0.1:2181
+
